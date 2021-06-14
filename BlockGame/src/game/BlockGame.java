@@ -166,14 +166,14 @@ public class BlockGame {
                     if(e.getKeyCode() == KeyEvent.VK_LEFT)
                     {
                         System.out.println("Pressed Left Key");
-                        barXTarget -= 20;
+                        barXTarget -= 50;
                         if(bar.x < barXTarget){
                             barXTarget = bar.x;
                         }
                     } else if(e.getKeyCode() == KeyEvent.VK_RIGHT)
                     {
                         System.out.println("Pressed Right Key");
-                        barXTarget += 20;
+                        barXTarget += 50;
                         if(bar.x > barXTarget){
                             barXTarget = bar.x;
                         }
